@@ -9,9 +9,10 @@ $(document).ready(function() {
     console.log(palindrome, word1, word2);
 
     if (word1 === word2) {
-      $(".results").append("<h1>PALINDROME!</h1>");
+      $(".results").append("<h2>PALINDROME!</h2>");
     } else {
-      $(".results").append("<h1>NOT A PALINDROME!</h1>");
+      $(".results").append("<h2>NOT A PALINDROME!</h2>");
     }
+    $("#palindrome").hide();
   });
 });

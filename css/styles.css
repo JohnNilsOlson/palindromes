@@ -1,0 +1,31 @@
+.container {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: white;
+  box-shadow: black, 5px;
+}
+
+h1 {
+padding-bottom: 20px;
+font-size: 75px;
+font-family: 'Special Elite', cursive;
+}
+
+h2 {
+  font-size: 45px;
+  font-family: 'Merriweather', serif;
+}
+
+body {
+  background-color: royalblue;
+}
+
+.well {
+  width: 700px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
